@@ -9,8 +9,8 @@ This project explores the application of Recurrent Neural Networks (RNNs) to gen
 ### Key Features
 1. Dataset: The complete works of William Shakespeare, preprocessed into sequences for character-level training.
 2. Model Architectures:
-* LSTM Model: Includes embedding, LSTM, and dense layers for text prediction.
-* GRU Model: Replaces LSTM with GRU for a comparative analysis of performance and efficiency.
+   * LSTM Model: Includes embedding, LSTM, and dense layers for text prediction.
+   * GRU Model: Replaces LSTM with GRU for a comparative analysis of performance and efficiency.
 3. Temperature Control: Adjusts randomness in text generation, allowing for varied output styles.
 4. Training and Evaluation: Both models were trained using sparse categorical cross-entropy loss and the Adam optimizer.
 
